@@ -11,6 +11,7 @@ Feature: Manage WordPress extension installation
 			Error: No themes installed.
 			"""
 
+
 		When I run `wp plugin install test-ext --activate`
 		Then STDOUT should be:
 			"""
