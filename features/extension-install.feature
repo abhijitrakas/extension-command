@@ -1,5 +1,6 @@
 Feature: Manage WordPress extension installation
 
+	@require-wp-5.1.1
 	Scenario: Installing Extensions theme or plugin
 		Given a WP install
 
